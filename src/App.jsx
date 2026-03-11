@@ -45,10 +45,10 @@ export default function App() {
 
         {/* Desktop Actions */}
         <div className="hidden md:flex items-center gap-[16px]">
-          <button className="bg-white border border-[#d4d4d4] rounded-[8px] text-[#171717] font-manrope font-semibold text-[14px] px-[16px] py-[8px] hover:bg-gray-50 transition">
+          <button className="bg-white border border-[#e5e5e5] rounded-[9px] text-[#171717] font-manrope font-semibold text-[14px] px-[18px] py-[9px] hover:bg-gray-50 active:scale-95 hover:-translate-y-0.5 shadow-sm hover:shadow-md transition-all duration-300">
             Sign In
           </button>
-          <button className="bg-primary shadow-sm rounded-[8px] text-[#fafafa] font-manrope font-semibold text-[14px] px-[16px] py-[8px] hover:bg-primary/90 transition shadow-[0_4px_14px_0_rgba(123,57,252,0.39)]">
+          <button className="bg-primary shadow-[0_4px_14px_0_rgba(123,57,252,0.39)] hover:shadow-[0_6px_20px_rgba(123,57,252,0.23)] hover:bg-[#854dff] rounded-[9px] text-[#fafafa] font-manrope font-semibold text-[14px] px-[18px] py-[9px] active:scale-95 hover:-translate-y-0.5 transition-all duration-300">
             Get Started
           </button>
         </div>
@@ -80,10 +80,10 @@ export default function App() {
             <a href="#" className="font-manrope text-2xl text-white">Contact us</a>
             
             <div className="w-full flex flex-col gap-4 mt-8">
-              <button className="w-full bg-white border border-[#d4d4d4] rounded-[8px] text-[#171717] font-manrope font-semibold text-[16px] py-3">
+              <button className="w-full bg-white border border-[#e5e5e5] rounded-[9px] text-[#171717] font-manrope font-semibold text-[16px] py-3.5 active:scale-95 hover:-translate-y-0.5 shadow-sm hover:shadow-md transition-all duration-300">
                 Sign In
               </button>
-              <button className="w-full bg-primary rounded-[8px] text-[#fafafa] font-manrope font-semibold text-[16px] py-3">
+              <button className="w-full bg-primary shadow-[0_4px_14px_0_rgba(123,57,252,0.39)] hover:shadow-[0_6px_20px_rgba(123,57,252,0.23)] hover:bg-[#854dff] rounded-[9px] text-[#fafafa] font-manrope font-semibold text-[16px] py-3.5 active:scale-95 hover:-translate-y-0.5 transition-all duration-300">
                 Get Started
               </button>
             </div>
@@ -94,7 +94,7 @@ export default function App() {
       {/* Hero Content */}
       <main className="relative z-10 flex flex-col items-center text-center mt-32 px-6">
         {/* Tagline Pill */}
-        <div className="flex items-center h-[38px] rounded-[10px] bg-[rgba(85,80,110,0.4)] backdrop-blur border border-[rgba(164,132,215,0.5)] p-1 pr-3">
+        <div className="hidden items-center h-[38px] rounded-[10px] bg-[rgba(85,80,110,0.4)] backdrop-blur border border-[rgba(164,132,215,0.5)] p-1 pr-3">
           <div className="bg-primary rounded-[6px] text-white px-2 py-0.5 mr-2 font-cabin font-medium text-[12px] md:text-[14px]">
             New
           </div>
@@ -116,10 +116,10 @@ export default function App() {
 
         {/* Call to Action Buttons */}
         <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
-          <button className="bg-primary hover:bg-[#8d54fc] transition-colors rounded-[10px] font-cabin font-medium text-[16px] text-white px-8 py-3.5 shadow-sm">
+          <button className="bg-primary hover:bg-[#854dff] text-white transition-all duration-300 hover:-translate-y-1 active:scale-95 rounded-[12px] font-cabin font-medium text-[16px] px-8 py-4 shadow-[0_8px_30px_rgba(123,57,252,0.3)] hover:shadow-[0_8px_30px_rgba(123,57,252,0.5)]">
             Book a Free Demo
           </button>
-          <button className="bg-[#2b2344] hover:bg-[#3d335f] transition-colors rounded-[10px] font-cabin font-medium text-[16px] text-[#f6f7f9] px-8 py-3.5 border border-[rgba(255,255,255,0.05)] shadow-sm">
+          <button className="bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.1)] backdrop-blur-md transition-all duration-300 hover:-translate-y-1 active:scale-95 rounded-[12px] font-cabin font-medium text-[16px] text-white px-8 py-4 border border-[rgba(255,255,255,0.1)] shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.2)]">
             Get Started Now
           </button>
         </div>
