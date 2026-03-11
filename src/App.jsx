@@ -17,7 +17,7 @@ export default function App() {
       />
 
       {/* Navbar Overlay */}
-      <nav className="relative z-20 w-full px-6 lg:px-[120px] py-[16px] flex items-center justify-between">
+      <nav className="relative z-20 w-full px-6 md:px-12 lg:px-[120px] py-[16px] flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white fill-current">
@@ -92,7 +92,7 @@ export default function App() {
       )}
 
       {/* Hero Content */}
-      <main className="relative z-10 flex flex-col items-center text-center mt-32 px-6">
+      <main className="relative z-10 flex flex-col items-center text-center mt-20 sm:mt-24 md:mt-32 px-6">
         {/* Tagline Pill */}
         <div className="hidden items-center h-[38px] rounded-[10px] bg-[rgba(85,80,110,0.4)] backdrop-blur border border-[rgba(164,132,215,0.5)] p-1 pr-3">
           <div className="bg-primary rounded-[6px] text-white px-2 py-0.5 mr-2 font-cabin font-medium text-[12px] md:text-[14px]">
@@ -104,7 +104,7 @@ export default function App() {
         </div>
 
         {/* Headline */}
-        <h1 className="font-instrument text-white text-[3rem] sm:text-6xl md:text-[96px] leading-[1.1] max-w-[900px] mt-8 tracking-tight">
+        <h1 className="font-instrument text-white text-5xl sm:text-6xl md:text-[80px] lg:text-[96px] leading-[1.1] max-w-[900px] mt-8 md:mt-10 tracking-tight">
           Book your perfect stay instantly <span className="italic pr-2 pl-1">and</span> hassle-free
         </h1>
 
@@ -115,11 +115,11 @@ export default function App() {
         </p>
 
         {/* Call to Action Buttons */}
-        <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
-          <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-white shadow hover:bg-primary/90 h-10 px-8">
+        <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto max-w-sm sm:max-w-none">
+          <button className="w-full sm:w-auto inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-white shadow hover:bg-primary/90 h-11 px-8">
             Book a Free Demo
           </button>
-          <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-[rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.05)] text-white shadow-sm hover:bg-[rgba(255,255,255,0.1)] backdrop-blur-md h-10 px-8">
+          <button className="w-full sm:w-auto inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-[rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.05)] text-white shadow-sm hover:bg-[rgba(255,255,255,0.1)] backdrop-blur-md h-11 px-8">
             Get Started Now
           </button>
         </div>
