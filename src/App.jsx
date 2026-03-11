@@ -45,10 +45,10 @@ export default function App() {
 
         {/* Desktop Actions */}
         <div className="hidden md:flex items-center gap-[16px]">
-          <button className="bg-white border border-[#e5e5e5] rounded-[9px] text-[#171717] font-manrope font-semibold text-[14px] px-[18px] py-[9px] hover:bg-gray-50 active:scale-95 hover:-translate-y-0.5 shadow-sm hover:shadow-md transition-all duration-300">
+          <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-[#e5e5e5] bg-white text-[#171717] shadow-sm hover:bg-gray-100 hover:text-black h-9 px-4 py-2">
             Sign In
           </button>
-          <button className="bg-primary shadow-[0_4px_14px_0_rgba(123,57,252,0.39)] hover:shadow-[0_6px_20px_rgba(123,57,252,0.23)] hover:bg-[#854dff] rounded-[9px] text-[#fafafa] font-manrope font-semibold text-[14px] px-[18px] py-[9px] active:scale-95 hover:-translate-y-0.5 transition-all duration-300">
+          <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-white shadow hover:bg-primary/90 h-9 px-4 py-2">
             Get Started
           </button>
         </div>
@@ -80,10 +80,10 @@ export default function App() {
             <a href="#" className="font-manrope text-2xl text-white">Contact us</a>
             
             <div className="w-full flex flex-col gap-4 mt-8">
-              <button className="w-full bg-white border border-[#e5e5e5] rounded-[9px] text-[#171717] font-manrope font-semibold text-[16px] py-3.5 active:scale-95 hover:-translate-y-0.5 shadow-sm hover:shadow-md transition-all duration-300">
+              <button className="w-full inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-[#e5e5e5] bg-white text-[#171717] shadow-sm hover:bg-gray-100 hover:text-black h-10 px-4 py-2">
                 Sign In
               </button>
-              <button className="w-full bg-primary shadow-[0_4px_14px_0_rgba(123,57,252,0.39)] hover:shadow-[0_6px_20px_rgba(123,57,252,0.23)] hover:bg-[#854dff] rounded-[9px] text-[#fafafa] font-manrope font-semibold text-[16px] py-3.5 active:scale-95 hover:-translate-y-0.5 transition-all duration-300">
+              <button className="w-full inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-white shadow hover:bg-primary/90 h-10 px-4 py-2">
                 Get Started
               </button>
             </div>
@@ -116,10 +116,10 @@ export default function App() {
 
         {/* Call to Action Buttons */}
         <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
-          <button className="bg-primary hover:bg-[#854dff] text-white transition-all duration-300 hover:-translate-y-1 active:scale-95 rounded-[12px] font-cabin font-medium text-[16px] px-8 py-4 shadow-[0_8px_30px_rgba(123,57,252,0.3)] hover:shadow-[0_8px_30px_rgba(123,57,252,0.5)]">
+          <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-white shadow hover:bg-primary/90 h-10 px-8">
             Book a Free Demo
           </button>
-          <button className="bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.1)] backdrop-blur-md transition-all duration-300 hover:-translate-y-1 active:scale-95 rounded-[12px] font-cabin font-medium text-[16px] text-white px-8 py-4 border border-[rgba(255,255,255,0.1)] shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.2)]">
+          <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-[rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.05)] text-white shadow-sm hover:bg-[rgba(255,255,255,0.1)] backdrop-blur-md h-10 px-8">
             Get Started Now
           </button>
         </div>
